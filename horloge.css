@@ -1,0 +1,20 @@
+
+body{
+
+    background: linear-gradient(to left, #000000, #434343);
+}
+
+#clock{
+
+    color: wheat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   font-size: 4em;
+    font-family: 'Bruno Ace SC', cursive;
+   
+}
+
+
+

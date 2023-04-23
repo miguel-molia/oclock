@@ -1,0 +1,47 @@
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .timer {
+    font-size: 80px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+  }
+  
+  .time-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time-input button {
+    font-size: 20px;
+    margin: 0 10px;
+  } 
+
+
+.minuteur{
+
+  color: red;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bungee', cursive;
+}
+
+body{
+
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}

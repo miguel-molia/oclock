@@ -1,0 +1,61 @@
+
+body{
+
+
+	background: linear-gradient(to left, #fceabb, #f8b500);
+	
+}
+
+
+.reveil{
+
+	font-family: 'Dancing Script', cursive;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 2em;
+}
+
+
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	margin-left: 10px;
+}
+
+#add-alarm {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-top: 10px;
+}
+
+.passed {
+	color: red;
+}
+
+.time {
+	color: blue;
+}
